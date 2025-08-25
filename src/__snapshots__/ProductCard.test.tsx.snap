@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProductCard > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-white rounded-lg shadow-md overflow-hidden w-64 m-4 flex flex-col items-center"
+  >
+    <img
+      alt="Test Product"
+      class="w-full h-40 object-cover"
+      src="test-image.jpg"
+    />
+    <div
+      class="p-4 w-full flex flex-col items-center"
+    >
+      <h2
+        class="text-lg font-semibold mb-2 text-gray-800"
+      >
+        Test Product
+      </h2>
+      <p
+        class="text-xl font-bold text-blue-600"
+      >
+        $19.99
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
